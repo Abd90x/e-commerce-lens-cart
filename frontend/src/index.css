@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-primary bg-white dark:bg-body text-primary dark:text-white;
+  }
+  .h2 {
+    @apply text-3xl capitalize;
+  }
+  .grad {
+    @apply bg-gradient-to-t border dark:border-none dark:from-[#1F2126] dark:to-[#33363D] drop-shadow-2xl;
+  }
+  .btn {
+    @apply h-[50px] flex justify-center items-center rounded-[8px] px-10 py-[10px] text-sm uppercase font-bold;
+  }
+  .btn-accent {
+    @apply bg-accent text-primary hover:bg-accent-hover transition-all;
+  }
+  .input {
+    @apply h-[50px] rounded-[8px] w-full outline-none px-6 text-primary bg-gray-100;
+  }
+  .dark {
+    @apply bg-light;
+  }
+}
