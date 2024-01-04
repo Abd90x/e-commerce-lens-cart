@@ -28,6 +28,7 @@ const Cart = () => {
       const res = await request.post("/orders", {
         cart,
       });
+
       await stripe.redirectToCheckout({
         sessionId: res.data.stripeSession.id,
       });
