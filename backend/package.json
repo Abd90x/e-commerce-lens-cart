@@ -13,7 +13,7 @@
     "@strapi/plugin-cloud": "4.16.2",
     "@strapi/plugin-i18n": "4.16.2",
     "@strapi/plugin-users-permissions": "4.16.2",
-    "@strapi/provider-upload-cloudinary": "^4.16.2",
+    "@strapi/provider-upload-cloudinary": "4.16.2",
     "@strapi/strapi": "4.16.2",
     "koa-body": "^6.0.1",
     "pg": "8.8.0",
