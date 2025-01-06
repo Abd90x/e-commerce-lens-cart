@@ -37,7 +37,7 @@ const Footer = () => {
         </div>
         <div className="flex gap-x-6 max-w-max mx-auto text-xl mb-16">
           <a
-            href="https://www.facebook.com/"
+            href="https://www.facebook.com"
             className="dark:hover:text-white transition-all"
           >
             <FaFacebook />
