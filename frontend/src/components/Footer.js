@@ -25,13 +25,13 @@ const Footer = () => {
           <button className="btn btn-accent min-w-[150px]">Subscribe</button>
         </form>
         <div className="text-base dark:text-white/60 flex gap-x-6 capitalize max-w-max mx-auto mb-9">
-          <a href="#" className="dark:hover:text-white transition-all">
+          <a href="#header" className="dark:hover:text-white transition-all">
             Returns Policy
           </a>
-          <a href="#" className="dark:hover:text-white transition-all">
+          <a href="#header" className="dark:hover:text-white transition-all">
             Track your order
           </a>
-          <a href="#" className="dark:hover:text-white transition-all">
+          <a href="#header" className="dark:hover:text-white transition-all">
             Shipping & Delivery
           </a>
         </div>
