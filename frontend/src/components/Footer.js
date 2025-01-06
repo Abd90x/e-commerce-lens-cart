@@ -36,16 +36,28 @@ const Footer = () => {
           </a>
         </div>
         <div className="flex gap-x-6 max-w-max mx-auto text-xl mb-16">
-          <a href="#" className="dark:hover:text-white transition-all">
+          <a
+            href="https://www.facebook.com/"
+            className="dark:hover:text-white transition-all"
+          >
             <FaFacebook />
           </a>
-          <a href="#" className="dark:hover:text-white transition-all">
+          <a
+            href="https://www.instagram.com/"
+            className="dark:hover:text-white transition-all"
+          >
             <FaInstagram />
           </a>
-          <a href="#" className="dark:hover:text-white transition-all">
+          <a
+            href="https://www.x.com/"
+            className="dark:hover:text-white transition-all"
+          >
             <FaTwitter />
           </a>
-          <a href="#" className="dark:hover:text-white transition-all">
+          <a
+            href="https://www.youtube.com/"
+            className="dark:hover:text-white transition-all"
+          >
             <FaYoutube />
           </a>
         </div>

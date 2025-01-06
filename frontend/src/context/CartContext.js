@@ -6,7 +6,7 @@ const CartProvider = ({ children }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [cart, setCart] = useState([]);
   const [itemsAmount, setItemsAmount] = useState(0);
-  const [amount, setAmount] = useState(0);
+  const [setAmount] = useState(0);
   const [total, setTotal] = useState(0);
 
   useEffect(() => {

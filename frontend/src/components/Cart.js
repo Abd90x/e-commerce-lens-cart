@@ -8,7 +8,6 @@ import {
 import { CartContext } from "../context/CartContext";
 
 import CartItem from "../components/CartItem";
-import { Link } from "react-router-dom";
 
 import { loadStripe } from "@stripe/stripe-js";
 import { request } from "../request";

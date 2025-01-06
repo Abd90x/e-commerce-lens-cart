@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext, useState } from "react";
 import Logo from "../assets/img/Logo.png";
 import LogoLight from "../assets/img/LogoLight.png";
 import { SlBag } from "react-icons/sl";
@@ -10,8 +10,6 @@ import SearchForm from "../components/SearchForm";
 import CategoryNavMobile from "../components/CategoryNavMobile";
 import Cart from "../components/Cart";
 import { CartContext } from "../context/CartContext";
-
-import useTheme from "../hooks/useTheme";
 
 import Switcher from "./Switcher";
 
